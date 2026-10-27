@@ -19,7 +19,7 @@ An end-to-end computer-vision pipeline that grades apples as **good** or **bad**
 
 | Step | What I did | Code |
 |---|---|---|
-| **1. Data collection** | Photographed 415 apples held in one hand in front of a crate, under normal and dim light. Red, green and yellow varieties. |, |
+| **1. Data collection** | Photographed 415 apples held in one hand in front of a crate, under normal and dim light. Red, green and yellow varieties. | (photos) |
 | **2. Labeling** | Built a keyboard-driven Flask labeling app (good/bad + defect type + quality flags, undo, zoom, queue filters) to label hundreds of photos quickly. | [`labeler/`](labeler/) |
 | **3. Background removal** | Grounding DINO finds the largest apple (the held one). SAM segments it, and the hand mask is subtracted only in the outer rim, so defects at the edge are never cut off. Suspicious masks are flagged for review, not silently dropped. | [`segmentation/`](segmentation/) |
 | **4. Training** | ConvNeXt-Tiny (ImageNet-pretrained), 384 px, 30 epochs, AdamW, label smoothing, EMA weights, background and lighting augmentation, balanced sampling across variety × lighting × label. | [`training/`](training/) |
