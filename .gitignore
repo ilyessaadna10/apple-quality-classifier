@@ -1,0 +1,8 @@
+models/*.pt
+__pycache__/
+*.pyc
+.thumb_cache/
+apples/
+apples_clean/
+output/
+*.zip
