@@ -88,6 +88,6 @@ results/        confusion matrix, figures
 
 ## Author
 **Saadna Ilyes**, final-year Industrial Networks & AI engineering student (HNSREED, Algeria) ·
-[LinkedIn](https://linkedin.com/in/ilyes-saadna) · saadna.ilyes.dev@gmail.com
+[LinkedIn](https://linkedin.com/in/ilyes-saadna) · ilyessaadna4@gmail.com
 
 Code: MIT License · Dataset images: CC BY 4.0
